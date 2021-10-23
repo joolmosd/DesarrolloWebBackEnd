@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "Users")
 public class User {
-	//@Id
+	// @Id
 	private String identification;
 	private String names;
 	private String lastNames;
@@ -15,25 +15,27 @@ public class User {
 	private String user;
 	private String email;
 	private String rol;
+	private boolean active;
 	private int age;
 	List<Publication> publications;
-	
+
 	public User() {
 	}
 
-	public User(String identification, String names, String lastNames, int age,
-			String gender, List<Publication> publications, String user, String password, String email, String rol) {
+	public User(String identification, String names, String lastNames, int age, String gender,
+			List<Publication> publications, String user, String password, String email, String rol, boolean active) {
 		super();
 		this.identification = identification;
 		this.names = names;
 		this.lastNames = lastNames;
 		this.age = age;
 		this.gender = gender;
-		this.publications =  publications;
+		this.publications = publications;
 		this.email = email;
 		this.user = user;
 		this.password = password;
 		this.rol = rol;
+		this.active = active;
 	}
 
 	public String getIdentification() {
@@ -116,5 +118,12 @@ public class User {
 		this.rol = rol;
 	}
 
+	public boolean isActive() {
+		return active;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
+	}
 
 }

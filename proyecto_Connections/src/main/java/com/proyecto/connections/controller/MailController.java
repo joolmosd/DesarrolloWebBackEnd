@@ -23,7 +23,7 @@ public class MailController {
 	    "attachments" : ["/Users/wilsonsoto/Downloads/TransaccionPNCBANK.pdf"]
 	}
 	*/
-	@RequestMapping(value = "/api/v1/msg", method=RequestMethod.GET)
+	@RequestMapping(value = "/api/v1/email", method=RequestMethod.GET)
 	public String sendEmail(@RequestBody Mail mail){
 		notificationService.sendEmail(mail);
 		return "Email sent successfully";
