@@ -1,46 +1,51 @@
 package com.proyecto.connections.model;
 
-public class Publication {
+import org.springframework.data.mongodb.core.mapping.Document;
 
-	private int id;
-	private String autor;
+@Document(collection = "Publications")
+public class Publication {
+	//@Id
+	private long id;
+	private String author;
 	private String urlImage;
-	private boolean title; 
+	private String title;
+	private String type;
 	private long likes;
 	private long comments;
 	public Publication() {}
 	
-	public Publication(int id, String autor, boolean title, String urlImage, long likes, long comments) {
+	public Publication(long id, String author, String title, String urlImage, long likes, long comments, String type) {
 		super();
 		this.id = id;
-		this.autor = autor;
+		this.author = author;
 		this.title = title;
 		this.urlImage = urlImage;
 		this.likes = likes;
 		this.comments = comments;
+		this.type = type;
 	}
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
-	public String getAutor() {
-		return autor;
+	public String getAuthor() {
+		return author;
 	}
 
-	public void setAutor(String autor) {
-		this.autor = autor;
+	public void setAuthor(String author) {
+		this.author = author;
 	}
 
-	public boolean getTitle() {
+	public String getTitle() {
 		return title;
 	}
 
-	public void setTitle(boolean title) {
+	public void setTitle(String title) {
 		this.title = title;
 	}
 
@@ -67,6 +72,15 @@ public class Publication {
 	public void setComments(long comments) {
 		this.comments = comments;
 	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+	
 	
 	
 	

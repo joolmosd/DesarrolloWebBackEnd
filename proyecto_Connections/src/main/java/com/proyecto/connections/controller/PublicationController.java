@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.proyecto.connections.model.Publication;
-import com.proyecto.connections.model.User;
 import com.proyecto.connections.repository.PublicationRepository;
 
 import io.swagger.annotations.Api;
@@ -46,15 +45,29 @@ public class PublicationController {
 	public List<Publication> getAllPublications() {
 		return publicationRepository.findAll();
 	}
+	
+	@GetMapping("/findPublicationByType/{type}")
+	public List<Publication> findPublicationByType(@PathVariable String type) {
+		return publicationRepository.findPublicationByType(type);
+	}
+	
+	
+	@GetMapping("/countPublicationLikes/{numOne}/{numTwo}")
+	public List<Publication> countPublicationLikes(@PathVariable int numOne,@PathVariable int numTwo) {
+		return publicationRepository.countPublicationLikes(numOne,numTwo);
+	}
+	
+	
 
 	@PutMapping("putPublication")
 	public Publication putPublication(@RequestBody Publication publication, @PathVariable int id) {
 		Publication update_publication = publicationRepository.findById(id).get();
-		update_publication.setAutor(publication.getAutor());
+		update_publication.setAuthor(publication.getAuthor());
 		update_publication.setComments(publication.getComments());
 		update_publication.setLikes(publication.getLikes());
 		update_publication.setTitle(publication.getTitle());
 		update_publication.setUrlImage(publication.getUrlImage());
+		update_publication.setType(publication.getType());
 		publicationRepository.save(update_publication);
 		return update_publication;
 

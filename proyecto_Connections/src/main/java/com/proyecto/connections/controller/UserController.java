@@ -38,11 +38,28 @@ public class UserController {
 	public User getUsuario(@PathVariable String id) {
 		return userRepository.findById(id).get();
 	}
-
+	
 	@GetMapping("/getAllUsers")
 	public List<User> getAllUsuario() {
 		return userRepository.findAll();
 	}
+
+	@GetMapping("/countUsersAge")
+	public List<User> countUsersAge() {
+		return userRepository.countUsersAge();
+	}
+
+	@GetMapping("/findUserGender/{gender}")
+	public List<User> findUserGender(@PathVariable String gender) {
+		return userRepository.findUserGender(gender);
+	}
+
+	@GetMapping("/findUserRol/{rol}")
+	public List<User> findUserRol(@PathVariable String rol) {
+		return userRepository.findUserRol(rol);
+	}
+
+	
 
 	@PutMapping("putUsuario")
 	public User putUsuario(@RequestBody User user, @PathVariable String id) {
