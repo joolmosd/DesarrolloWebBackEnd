@@ -22,7 +22,7 @@ public class SwaggerConfig {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
 				//.apis(RequestHandlerSelectors.basePackage("co.edu.poli.mongodb.controller")) //Specific package
-				.apis(RequestHandlerSelectors.basePackage("com.practica.mongo")) //All project
+				.apis(RequestHandlerSelectors.basePackage("com.proyecto.connetions")) //All project
 				//.paths(PathSelectors.regex("/api/v1.*")) //filter RequestMapping with regular expression
 				.paths(PathSelectors.any())
 				.build()
@@ -32,7 +32,7 @@ public class SwaggerConfig {
 
 	private ApiInfo mongoCustomerApiInfo() {
 		return new ApiInfoBuilder()
-				.title("My Spring Boot REST API")
+				.title("My App Connections Spring Boot REST API")
 				.description("Customer REST API")
 				.contact(new Contact("Web App Mongo", "", "joolmosd@poligran.edu.co"))
 				.version("0.0.1")
