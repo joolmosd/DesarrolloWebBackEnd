@@ -16,13 +16,14 @@ public class User {
 	private String email;
 	private String rol;
 	private int age;
+	private boolean active;
 	List<Publication> publications;
 	
 	public User() {
 	}
 
 	public User(String identification, String names, String lastNames, int age,
-			String gender, List<Publication> publications, String user, String password, String email, String rol) {
+			String gender, List<Publication> publications, String user, String password, String email, String rol, boolean active) {
 		super();
 		this.identification = identification;
 		this.names = names;
@@ -34,6 +35,7 @@ public class User {
 		this.user = user;
 		this.password = password;
 		this.rol = rol;
+		this.active = active;
 	}
 
 	public String getIdentification() {
@@ -116,5 +118,11 @@ public class User {
 		this.rol = rol;
 	}
 
+	public boolean isActive() {
+		return active;
+	}
 
+	public void setActive(boolean active) {
+		this.active = active;
+	}
 }
