@@ -75,7 +75,8 @@ public class UserController {
 		update_user.setPassword(user.getPassword());
 		update_user.setEmail(user.getEmail());
 		update_user.setRol(user.getRol());
-		update_user.setActive(user.isActive());
+		update_user.setActive(user.isActive());;
+		
 
 		userRepository.save(update_user);
 		return update_user;
