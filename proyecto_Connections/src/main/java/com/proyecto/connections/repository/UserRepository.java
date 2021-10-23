@@ -7,7 +7,8 @@ import org.springframework.data.mongodb.repository.Query;
 import com.proyecto.connections.model.User;
 
 public interface UserRepository extends MongoRepository<User, String> {
-
+	
+	User findByUser(String userName);
 	// cuenta cuantos usuarios tienen mayor o igual x años
 	@Query("'age': {$gte:?0,$lte:?1}}")
 	List<User> countUsersAge();
