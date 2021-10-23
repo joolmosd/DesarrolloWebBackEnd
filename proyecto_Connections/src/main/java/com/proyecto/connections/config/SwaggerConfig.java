@@ -27,7 +27,7 @@ public class SwaggerConfig {
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(mongoCustomerApiInfo())
-				.tags(new Tag("Class: UsuarioController", "*** Usuario Controller ***"));
+				.tags(new Tag("Class: UserController", "*** User Controller ***"));
 	}
 
 	private ApiInfo mongoCustomerApiInfo() {
