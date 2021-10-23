@@ -1,0 +1,206 @@
+[{
+  "_id": {
+    "$oid": "6173a8f9a6907b7950b9b786"
+  },
+  "identification": "1020842461",
+  "names": "Joan Camilo",
+  "lastNames": "Olmos Duran",
+  "gender": "Masculino",
+  "password": "$2a$10$9f6/eelGshcPaZdZGFmw/uz2UgMZqKZ0/8pdKnSkXTfQgysyCvTf2",
+  "user": "joolmosd",
+  "email": "joolmosd@poligran.edu.co",
+  "rol": "ROLE_ADMIN",
+  "active": true,
+  "age": 21,
+  "publications": [
+    {
+      "_id": 1,
+      "author": "Camilo",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.xtrafondos.com%2Fwallpaper%2F3840x2160%2F5846-paisaje-digital-en-atardecer.html&psig=AOvVaw3vfzXI6dr66Vw9IyDVxZNp&ust=1635039599438000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOirsaaz3_MCFQAAAAAdAAAAABAD",
+      "title": "Venta de Cartos",
+      "likes": 5,
+      "comments": 10
+    },
+    {
+      "_id": 2,
+      "author": "Andres",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com.mx%2Fpin%2F774126623431767538%2F%3Famp_client_id%3DCLIENT_ID(_)%26mweb_unauth_id%3D%26amp_url%3Dhttps%253A%252F%252Fwww.pinterest.com.mx%252Famp%252Fpin%252F774126623431767538%252F%26amp_expand%3Dtrue&psig=AOvVaw3vfzXI6dr66Vw9IyDVxZNp&ust=1635039599438000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOirsaaz3_MCFQAAAAAdAAAAABAJ",
+      "title": "Regalo vidrio",
+      "likes": 50,
+      "comments": 15
+    },
+    {
+      "_id": 3,
+      "author": "Yeison",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallspic.com%2Fes%2Fimage%2F158870-ambiente-afterglow-paisaje_natural-morado-azure&psig=AOvVaw3vfzXI6dr66Vw9IyDVxZNp&ust=1635039599438000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOirsaaz3_MCFQAAAAAdAAAAABAO",
+      "title": "Compro Carton",
+      "likes": 100,
+      "comments": 60
+    }
+  ],
+  "_class": "com.proyecto.connections.model.User"
+},{
+  "_id": {
+    "$oid": "6173a8f9a6907b7950b9b787"
+  },
+  "identification": "1023242649",
+  "names": "Andres Felipe",
+  "lastNames": "Olmos Duran",
+  "gender": "Masculino",
+  "password": "$2a$10$9f6/eelGshcPaZdZGFmw/uz2UgMZqKZ0/8pdKnSkXTfQgysyCvTf2jo",
+  "user": "andrefolmosd",
+  "email": "andrefolmosd@poligran.edu.co",
+  "rol": "ROLE_USER",
+  "active": true,
+  "age": 16,
+  "publications": [
+    {
+      "_id": 7,
+      "author": "Gerardo",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.artmajeur.com%2Fes%2Fvaleria-ec11%2Fartworks%2F9732760%2Fpaisajes-hermosos-cascada-jpg&psig=AOvVaw3vfzXI6dr66Vw9IyDVxZNp&ust=1635039599438000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOirsaaz3_MCFQAAAAAdAAAAABAk",
+      "title": "Requiero 50 botellas de 3 litros",
+      "likes": 2,
+      "comments": 17
+    },
+    {
+      "_id": 8,
+      "author": "Santiago",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Faxpeconsultingfotografia.wordpress.com%2F2015%2F08%2F06%2F10-consejos-para-fotografiar-paisajes-nocturnos%2F&psig=AOvVaw3ojdirMfTKR-5SgpSFWDGg&ust=1635040379687000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCmn5q23_MCFQAAAAAdAAAAABAJ",
+      "title": "Regalo vidrio",
+      "likes": 25,
+      "comments": 25
+    },
+    {
+      "_id": 9,
+      "author": "Tatiana",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Flpdiazs%2Fstatus%2F925218396437749760&psig=AOvVaw3ojdirMfTKR-5SgpSFWDGg&ust=1635040379687000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCmn5q23_MCFQAAAAAdAAAAABAO",
+      "title": "Compro Carton",
+      "likes": 100,
+      "comments": 60
+    }
+  ],
+  "_class": "com.proyecto.connections.model.User"
+},{
+  "_id": {
+    "$oid": "6173a8f9a6907b7950b9b788"
+  },
+  "identification": "52017792",
+  "names": "Brian Steven",
+  "lastNames": "Pulido",
+  "gender": "Masculino",
+  "password": "$2a$10$9f6/eelGshcPaZdZGFmw/uz2UgMZqKZ0/8pdKnSkXTfQgysyCvTf2jo",
+  "user": "brianspulido",
+  "email": "brianspulido@poligran.edu.co",
+  "rol": "ROLE_USER",
+  "active": true,
+  "age": 42,
+  "publications": [
+    {
+      "_id": 10,
+      "author": "Leidy",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F82331499426382931%2F&psig=AOvVaw3ojdirMfTKR-5SgpSFWDGg&ust=1635040379687000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCmn5q23_MCFQAAAAAdAAAAABAf",
+      "title": "Se necesitan 10kg de carton",
+      "likes": 122,
+      "comments": 150
+    },
+    {
+      "_id": 11,
+      "author": "Camila",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muyinteresante.es%2Fciencia%2Farticulo%2Flas-galaxias-mas-cercanas-a-la-tierra-981628685816&psig=AOvVaw1sCG03gk9kv8m40X2ns-p3&ust=1635040688622000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjg2a233_MCFQAAAAAdAAAAABAD",
+      "title": "Donde puedo vender o regalar este carton en chia",
+      "likes": 200,
+      "comments": 394
+    },
+    {
+      "_id": 12,
+      "author": "Erika",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fmundo%2Fnoticias-47502404&psig=AOvVaw1sCG03gk9kv8m40X2ns-p3&ust=1635040688622000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjg2a233_MCFQAAAAAdAAAAABAJ",
+      "title": "Compro Carton",
+      "likes": 100,
+      "comments": 255
+    }
+  ],
+  "_class": "com.proyecto.connections.model.User"
+},{
+  "_id": {
+    "$oid": "6173a8f9a6907b7950b9b789"
+  },
+  "identification": "6776097",
+  "names": "Tatiana",
+  "lastNames": "Montealegre",
+  "gender": "Femenino",
+  "password": "$2a$10$9f6/eelGshcPaZdZGFmw/uz2UgMZqKZ0/8pdKnSkXTfQgysyCvTf2jo",
+  "user": "tatianam",
+  "email": "tatianam@poligran.edu.co",
+  "rol": "ROLE_USER",
+  "active": true,
+  "age": 21,
+  "publications": [
+    {
+      "_id": 4,
+      "author": "Alexander",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eltiempo.com%2Fcolombia%2Fotras-ciudades%2Fpaisajes-rurales-mas-lindos-de-colombia-226970&psig=AOvVaw3vfzXI6dr66Vw9IyDVxZNp&ust=1635039599438000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOirsaaz3_MCFQAAAAAdAAAAABAT",
+      "title": "Venta Plastico",
+      "likes": 2,
+      "comments": 1
+    },
+    {
+      "_id": 5,
+      "author": "Hernando",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.semana.com%2Fsostenibilidad%2Farticulo%2Flatinoamerica-y-el-caribe-tienen-la-mayor-extension-en-areas-protegidas-del-mundo%2F202102%2F&psig=AOvVaw3vfzXI6dr66Vw9IyDVxZNp&ust=1635039599438000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOirsaaz3_MCFQAAAAAdAAAAABAY",
+      "title": "Compro periodico",
+      "likes": 50,
+      "comments": 35
+    },
+    {
+      "_id": 6,
+      "author": "German",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fobservatorio.tec.mx%2Fedu-bits-blog%2Fguia-para-crear-paisajes-de-aprendizaje-digitales&psig=AOvVaw3vfzXI6dr66Vw9IyDVxZNp&ust=1635039599438000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOirsaaz3_MCFQAAAAAdAAAAABAe",
+      "title": "Compro Carton",
+      "likes": 10,
+      "comments": 80
+    }
+  ],
+  "_class": "com.proyecto.connections.model.User"
+},{
+  "_id": {
+    "$oid": "6173a8f9a6907b7950b9b78a"
+  },
+  "identification": "1015482461",
+  "names": "Daniela Alejandra",
+  "lastNames": "Gonzalez Garzon",
+  "gender": "Femenina",
+  "password": "$2a$10$YEjQ0AIh9.RKS39Vy3S8W.v0EU8drF8Xb0dQo84Ot8o6hUsnTO9/e",
+  "user": "danielaago",
+  "email": "danielaago@poligran.edu.co",
+  "rol": "ROLE_USER",
+  "active": true,
+  "age": 22,
+  "publications": [
+    {
+      "_id": 13,
+      "author": "Camilo",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.latimes.com%2Fespanol%2Fvidayestilo%2Fla-es-un-cumulo-de-14-galaxias-distantes-podria-convertirse-en-la-estructura-mas-gigantesca-del-universo-20180425-story.html&psig=AOvVaw1sCG03gk9kv8m40X2ns-p3&ust=1635040688622000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjg2a233_MCFQAAAAAdAAAAABAP",
+      "title": "Compro plastico de todo tipo",
+      "likes": 253,
+      "comments": 200
+    },
+    {
+      "_id": 14,
+      "author": "Camilo",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dw.com%2Fes%2Festo-tardar%25C3%25ADa-una-civilizaci%25C3%25B3n-extraterrestre-en-poblar-toda-la-galaxia%2Fa-58167835&psig=AOvVaw1sCG03gk9kv8m40X2ns-p3&ust=1635040688622000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjg2a233_MCFQAAAAAdAAAAABAZ",
+      "title": "Compro acero",
+      "likes": 500,
+      "comments": 101
+    },
+    {
+      "_id": 15,
+      "author": "Camilo",
+      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhipertextual.com%2F2021%2F01%2Fimagenes-galaxias-colision&psig=AOvVaw1sCG03gk9kv8m40X2ns-p3&ust=1635040688622000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjg2a233_MCFQAAAAAdAAAAABAw",
+      "title": "Compro carton",
+      "likes": 300,
+      "comments": 350
+    }
+  ],
+  "_class": "com.proyecto.connections.model.User"
+}]
