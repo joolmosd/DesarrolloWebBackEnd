@@ -11,7 +11,7 @@ public interface PublicationRepository extends MongoRepository<Publication, Inte
 	@Query("{ 'type' : ?0 }")
 	List<Publication> findPublicationByType(String type);
 	
-	// cuenta cuantos usuarios tienen mayor o igual x años
+	// cuenta cuantos usuarios tienen mayor o igual X años
 	@Query("{'likes': {$gte:?0, $lte:?1}}")
 	List<Publication> countPublicationLikes(int numOne, int numTwo);
 
